@@ -3,7 +3,9 @@
 <b>一个人做产品。把 AI 从对话框里请出来，放进毛绒玩具、回忆网站和一支 AI 团队里。下面每个项目都还在长大。</b><br>
 <b>Building solo, taking AI out of the chat box and into plush toys, memory websites and a team of agents. Every project below is still growing.</b>
 
-<a href="https://github.com/ShmilyXI?tab=repositories"><img src="https://img.shields.io/github/stars/ShmilyXI?style=for-the-badge&amp;logo=github&amp;label=stars&amp;color=e8c07a" alt="total stars"></a> <a href="https://github.com/ShmilyXI?tab=followers"><img src="https://img.shields.io/github/followers/ShmilyXI?style=for-the-badge&amp;logo=github&amp;label=followers&amp;color=ff9f6e" alt="followers"></a> <img src="https://komarev.com/ghpvc/?username=ShmilyXI&amp;style=for-the-badge&amp;color=8b7cff&amp;label=VISITORS" alt="profile views">
+<a href="https://github.com/ShmilyXI?tab=repositories"><img src="https://img.shields.io/github/stars/ShmilyXI?style=for-the-badge&amp;logo=github&amp;label=stars&amp;color=e8c07a" alt="total stars"></a> <a href="https://github.com/ShmilyXI?tab=followers"><img src="https://img.shields.io/github/followers/ShmilyXI?style=for-the-badge&amp;logo=github&amp;label=followers&amp;color=ff9f6e" alt="followers"></a> <a href="https://www.douyin.com/user/MS4wLjABAAAAQOv7xFGCXq54vdTSKJ_dERXDGn7Hjx8dy6mNbha3uPRE5wErnAMHQ4EarlseTeFH"><img src="https://img.shields.io/badge/抖音-000000?style=for-the-badge&amp;logo=tiktok&amp;logoColor=white" alt="抖音 Douyin"></a> <a href="https://xhslink.cn/o/5nZmBKKuHHq"><img src="https://img.shields.io/badge/小红书-FF2442?style=for-the-badge&amp;logo=xiaohongshu&amp;logoColor=white" alt="小红书 Red Note"></a>
+
+<a href="#support"><img src="https://img.shields.io/badge/%E2%98%95%20%E6%94%AF%E6%8C%81%E4%BD%9C%E8%80%85%20%2F%20Support%20author-1677FF?style=for-the-badge" alt="☕ 支持作者 / Support author" height="32"></a> <a href="#wechat-community"><img src="https://img.shields.io/badge/%E5%BE%AE%E4%BF%A1%E7%BE%A4%20%2F%20WeChat%20community-07C160?style=for-the-badge&amp;logo=wechat&amp;logoColor=white" alt="微信群 / WeChat community" height="32"></a>
 
 <img src="assets/divider-plush.svg" width="100%" alt="">
 
@@ -56,5 +58,41 @@
 <img src="assets/divider-end.svg" width="100%" alt="">
 
 <b>也在折腾 / Also tinkering with</b>：<a href="https://github.com/ShmilyXI/infinite-canvas">infinite-canvas</a>（AI 创作无限画布 / an infinite canvas for AI creation）
+
+<a id="support"></a>
+
+## ☕ 支持作者 / Support my work
+
+如果这些项目帮到了你，欢迎请我喝杯咖啡，支持后续开发和维护。
+
+If my projects helped you, a coffee keeps them going.
+
+<img src="assets/alipay-sponsor.jpg" alt="支付宝赞助收款码 / Alipay sponsorship QR code" width="260">
+
+支付宝扫一扫，金额随意。用手机看时，可以先保存图片，再在支付宝「扫一扫」里从相册选择。
+
+Scan with Alipay; any amount is appreciated. On a phone, save the image and pick it from your album in Alipay's Scan.
+
+赞助完全自愿，Star、反馈和分享我同样感谢。赞助不改变任何项目的许可条款。
+
+Sponsorship is entirely optional; stars, feedback and shares mean just as much. It does not change any project's license.
+
+<a id="wechat-community"></a>
+
+## 💬 微信群 / WeChat community
+
+欢迎加入「Ai 交流群」，一起聊 AI 应用、AI 硬件和一人公司。
+
+Join the "Ai 交流群" WeChat group to talk about AI apps, AI hardware and running a one-person company.
+
+<img src="assets/wechat-group.jpg?v=20261124" alt="Ai 交流群 微信入群二维码 / WeChat group QR code" width="300">
+
+用微信扫一扫加入。用手机看时，可以先保存图片，再在微信「扫一扫」里从相册选择。
+
+Scan with WeChat to join. On a phone, save the image and pick it from your album in WeChat's Scan.
+
+二维码在 **2026-12-01 前**有效，以微信提示为准。失效的话，可以在[小红书](https://xhslink.cn/o/5nZmBKKuHHq)或[抖音](https://www.douyin.com/user/MS4wLjABAAAAQOv7xFGCXq54vdTSKJ_dERXDGn7Hjx8dy6mNbha3uPRE5wErnAMHQ4EarlseTeFH)私信我拿最新的。
+
+Valid before **2026-12-01**. If it has expired, message me on Xiaohongshu or Douyin for a fresh one.
 
 <a href="https://github.com/ShmilyXI"><img src="assets/footer.svg" width="100%" alt="做东西的人最开心的，是知道有人在看。Leave a star, so I know you stopped by."></a>
