@@ -55,6 +55,18 @@
 <a href="https://github.com/ShmilyXI/ai-links"><img src="https://img.shields.io/badge/▶_View_the_code-看源码-a33a28?style=for-the-badge" alt="View the code"></a>
 <a href="https://github.com/ShmilyXI/ai-links"><img src="https://img.shields.io/github/stars/ShmilyXI/ai-links?style=for-the-badge&amp;logo=github&amp;label=ai-links&amp;color=e2553d" alt="ai-links on GitHub"></a>
 
+<img src="assets/divider-xmas.svg" width="100%" alt="">
+
+## 🎄 starlight-xmas-tree
+
+<a href="https://shmilyxi.github.io/starlight-xmas-tree/"><img src="assets/card-xmas.jpg" width="100%" alt="starlight-xmas-tree：一束星光，从黑暗里画出一棵圣诞树。"></a>
+
+<b>一束星光，从黑暗里画出一棵圣诞树。</b>星光螺旋上升画出轮廓，再转着往下照亮枝梢，最后从树干冲上树顶，一层层点亮彩灯。three.js 粒子 + 自定义 shader + 泛光，一个文件就能嵌进任何网页，原本是给回忆网站做的圣诞节开场。<br>
+<b>A beam of starlight drawing a Christmas tree out of the dark.</b> It spirals up to trace the outline, sweeps back down to rim-light the branches, then shoots up the trunk to switch the lights on layer by layer. three.js particles, custom shaders and bloom in a single drop-in file, first made as a Christmas intro for a memory website.
+
+<a href="https://shmilyxi.github.io/starlight-xmas-tree/"><img src="https://img.shields.io/badge/▶_Live_demo-在线看效果-c9963a?style=for-the-badge" alt="Live demo"></a>
+<a href="https://github.com/ShmilyXI/starlight-xmas-tree"><img src="https://img.shields.io/github/stars/ShmilyXI/starlight-xmas-tree?style=for-the-badge&amp;logo=github&amp;label=starlight-xmas-tree&amp;color=e8c07a" alt="starlight-xmas-tree on GitHub"></a>
+
 <img src="assets/divider-end.svg" width="100%" alt="">
 
 <b>也在折腾 / Also tinkering with</b>：<a href="https://github.com/ShmilyXI/infinite-canvas">infinite-canvas</a>（AI 创作无限画布 / an infinite canvas for AI creation）
