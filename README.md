@@ -59,7 +59,7 @@
 
 ## 🎄 starlight-xmas-tree
 
-<a href="https://shmilyxi.github.io/starlight-xmas-tree/"><img src="assets/card-xmas.jpg" width="100%" alt="starlight-xmas-tree：一束星光，从黑暗里画出一棵圣诞树。"></a>
+<a href="https://shmilyxi.github.io/starlight-xmas-tree/"><img src="assets/card-xmas.jpg?v=2" width="100%" alt="starlight-xmas-tree：一束星光，从黑暗里画出一棵圣诞树。"></a>
 
 <b>一束星光，从黑暗里画出一棵圣诞树。</b>星光螺旋上升画出轮廓，再转着往下照亮枝梢，最后从树干冲上树顶，一层层点亮彩灯。three.js 粒子 + 自定义 shader + 泛光，一个文件就能嵌进任何网页，原本是给回忆网站做的圣诞节开场。<br>
 <b>A beam of starlight drawing a Christmas tree out of the dark.</b> It spirals up to trace the outline, sweeps back down to rim-light the branches, then shoots up the trunk to switch the lights on layer by layer. three.js particles, custom shaders and bloom in a single drop-in file, first made as a Christmas intro for a memory website.
