@@ -211,22 +211,21 @@ def card_plush() -> None:
         ".pop{animation:pop 6s ease-out infinite}"
     )
     a = []
-    bx, by = 150, 0
-    a.append('<g class="br">')
-    a.append(f'<circle cx="{bx-56}" cy="88" r="29" fill="#EDAA80"/><circle cx="{bx-56}" cy="88" r="15" fill="#D98A62"/>')
-    a.append(f'<circle cx="{bx+56}" cy="88" r="29" fill="#EDAA80"/><circle cx="{bx+56}" cy="88" r="15" fill="#D98A62"/>')
-    a.append(f'<ellipse cx="{bx}" cy="258" rx="66" ry="56" fill="#EDAA80"/><ellipse cx="{bx}" cy="266" rx="38" ry="32" fill="#FBE3CF"/>')
-    a.append(f'<ellipse cx="{bx-62}" cy="236" rx="18" ry="24" fill="#E39C72" transform="rotate(28 {bx-62} 236)"/>')
-    a.append(f'<ellipse cx="{bx+62}" cy="236" rx="18" ry="24" fill="#E39C72" transform="rotate(-28 {bx+62} 236)"/>')
-    a.append(f'<circle cx="{bx}" cy="142" r="74" fill="#F5C09A"/>')
-    a.append(f'<ellipse cx="{bx}" cy="170" rx="32" ry="24" fill="#FBE3CF"/>')
-    a.append(f'<ellipse cx="{bx}" cy="159" rx="9.5" ry="6.5" fill="#4A2A1C"/>')
-    a.append(f'<path d="M{bx-9} 176Q{bx} 184 {bx+9} 176" stroke="#4A2A1C" stroke-width="2.4" fill="none" stroke-linecap="round"/>')
-    a.append(f'<circle class="bl" cx="{bx-27}" cy="132" r="6.5" fill="#2A1810"/><circle class="bl" cx="{bx+27}" cy="132" r="6.5" fill="#2A1810"/>')
-    a.append(f'<circle cx="{bx-46}" cy="160" r="10" fill="#FF8A78" opacity=".45"/><circle cx="{bx+46}" cy="160" r="10" fill="#FF8A78" opacity=".45"/>')
-    hx, hy = bx, 262
-    a.append(f'<path class="hb" d="M{hx} {hy+9}C{hx-15} {hy} {hx-14} {hy-10} {hx-7} {hy-10}C{hx-3} {hy-10} {hx} {hy-6} {hx} {hy-4}C{hx} {hy-6} {hx+3} {hy-10} {hx+7} {hy-10}C{hx+14} {hy-10} {hx+15} {hy} {hx} {hy+9}Z" fill="{acc}"/>')
-    a.append("</g>")
+    # AI-generated plush (tools/plush-bear.jpg, made with gpt-image), faded into the card
+    import base64
+    jpg = base64.b64encode((Path(__file__).parent / "plush-bear.jpg").read_bytes()).decode()
+    ix, iy, isz = -2, 10, 304
+    a.append(f'<g class="br"><image href="data:image/jpeg;base64,{jpg}" x="{ix}" y="{iy}" width="{isz}" height="{isz}" mask="url(#bm)"/>')
+    hx, hy = ix + isz * 720 / 1254, iy + isz * 690 / 1254
+    a.append(f'<circle class="hb" cx="{hx:.1f}" cy="{hy:.1f}" r="24" fill="url(#hg)" style="mix-blend-mode:screen"/></g>')
+    art_defs = (
+        f'<radialGradient id="bmg" cx="{ix+isz/2}" cy="{iy+isz/2}" r="{isz/2}" gradientUnits="userSpaceOnUse">'
+        '<stop offset=".68" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>'
+        f'<mask id="bm" maskUnits="userSpaceOnUse" x="{ix}" y="{iy}" width="{isz}" height="{isz}">'
+        f'<rect x="{ix}" y="{iy}" width="{isz}" height="{isz}" fill="url(#bmg)"/></mask>'
+        '<radialGradient id="hg"><stop offset="0" stop-color="#FFC46B" stop-opacity=".95"/>'
+        '<stop offset=".45" stop-color="#FF9F45" stop-opacity=".45"/><stop offset="1" stop-color="#FF9F45" stop-opacity="0"/></radialGradient>'
+    )
     # listening bubble
     x0, y0 = 288, 62
     a.append(d.text("● LISTENING", x0 + 2, y0 - 12, 10.5, "mono", 600, fill=acc, tracking=0.16))
@@ -254,7 +253,7 @@ def card_plush() -> None:
     card("plush", "01", "AI HARDWARE", "ai-plush-companion",
          "把会听、会说、会记得你的心，缝进毛绒玩具。",
          "Sewing a heart that listens, talks and remembers into a plush toy.",
-         ["ESP32", "Java", "Python", "MQTT", "MCP"], acc, "".join(a), st, d=d)
+         ["ESP32", "Java", "Python", "MQTT", "MCP"], acc, "".join(a), st, art_defs, d=d)
 
 
 def catmull(pts: list[tuple[float, float]]) -> str:
